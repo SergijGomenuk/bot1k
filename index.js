@@ -120,7 +120,7 @@ client.on('interactionCreate', async (interaction) => {
     }
 });
 
-client.login('токен');
+client.login(process.env.TOKEN);
 
 
 
